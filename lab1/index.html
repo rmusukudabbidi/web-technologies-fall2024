@@ -3,10 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
+    <title>Dallas Maverics - NBA</title>
+    <style>
+        .table-border {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Web Page!</h1>
-    <p>This is a basic HTML page created for my web technologies lab.</p>
-</body>
+    <header>
+        <center>
+            <h1>Dallas Maverics - NBA</h1>
+            <nav>
+                <a href="#team">Team</a> |
+                <a href="#best_game">Best Game</a> |
+                <a href="#best_moment">Best Moment</a> |
+                <a href="#quote">Quote</a> |
+                <a href="#author">Author</a>
+            </nav>
+        </center><hr> <br><br>
+    </header>
+    <main>
+        <center>
+            <div>
+                <h1>Welcome to biggest fan page of Dallas Maverics!!!</h1>
+                <img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="Dallas Maverics Logo" width="200" height="200"> 
+            </div>
+            <p>The Dallas maverics had an incredible run last season, reaching the NBA Finals and losing to Boston Celtics (4-1). Luka Dončić, point guard of the team, had an outstanding season, where he averaged 32.2 points per game in regular season.</p>
+        </center>
+
+        <!-- Team Information -->
+        <h3>Highlights of Dallas Maverics: Season 23-24</h3>
+        <ul>
+            <li>Won the Western Conference</li>
+            <li>Luka Dončić was the top scorer of the season</li>
+            <li>Reached the NBA Finals</li>
+        </ul>
+        <h3>Top players of Dallas Maverics</h3>
+        <ol>
+            <li>Luka Dončić</li>
+            <li>Kyrie Irving</li>
+            <li>Tim Hardaway Jr.</li>
+        </ol>
+
+        <!-- Best Game of the Season -->
+        <h3>Best Game of the Season</h3>
+        <div style="display: flex;">
+            <img src="game_winning.png" alt="Luka Dončić Game Winning Shot" width="400" height="200" style="margin: 10px;">
+            <p style="margin: 10px;">The Dallas Mavericks took a commanding 2-0 series lead over the Minnesota Timberwolves on the road, and after climbing the mountain and battling back after being down by 18 points, the Mavs got the win. <br><br>
+
+                Both Luka Doncic and Kyrie Irving hit big shots down the stretch, but no shot was bigger than Doncic's game-winning step-back 3-pointer over Rudy Gobert that anyone in the stadium could have seen what was coming. <br><br>
+                Doncic and Gobert have an individual rivalry that has been going on for multiple seasons now, but no moment encompasses Doncic's domination of Gobert like the game-winning 3-pointer he made over him in the Western Conference Finals.
+                <br><br><a href="https://thesmokingcuban.com/posts/dallas-mavericks-luka-doncic-savagely-flames-rudy-gobert-after-viral-game-winner" target="_blank">Click here</a> To know more about the game.
+            </p>
+                
+        </div>
+
+        <!-- Best Moment of the Season -->
+        <h3>In your opinion what is the best moment for dallas maverics in the Season 2023-24</h3>
+        <center>
+        <form action="#" method="post">
+            <label for="best_moment">Best Moment:</label>
+            <select>
+                <option value="default">-- Select --</option>
+                <option value="game_winning">Luka's Game-Winner Over Rudy Gobert To Take A 2-0 Lead in Western Conference Finals</option>
+                <option value="kyrie_30">Kyrie's 30 points in a single game</option>
+                <option value="circus_shot">Luka's Ridiculous Circus Shot Over Former Teammate Sinks Brooklyn Nets</option>
+                <option value="western_conf">Dallas winning Western Conference</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form></center><br/><br/>
+
+        <!-- Quote of the Season -->
+        <h3>Quote of the Season</h3>
+        <blockquote>
+            <strong>"Everybody acting tough when they up." -- Luka Dončić</strong>
+        </blockquote><hr>
+        <p> This quote from Luka will be remembered for ages. In the Western Conference Semifinal, 2 years ago, Luka said these words after humiliating the suns 123 - 90. The Suns were 2-0 up and many thoght that it is impossible for the dallas maverics to comeback in the semifinals. Many experts have written of luka and his team but astonishingly the Mavs made a stellar comeback and defeated the suns 4 - 3. </p>
+        <br/><br/><hr/>
+
+        <!-- About Author -->
+        <h2>About Author</h2>
+        <div style="display: flex;">
+            <img src="myimg.jpeg" alt="Rohit Reddy Musukudabbidi" width="400" height="200" style="margin: 10px;">
+            <div>
+                <p style="margin: 10px;">Hi, I am Rohit Reddy Musukudabbidi, a huge fan of Dallas Maverics. I have been following the team since 2022 and have witnessed many ups and downs. I am a software engineer by profession and a sports enthusiast by passion. I love to write about sports and share my views with the world. I hope you enjoy reading my articles. Go Mavs!!!<br/><br>
+                    Check out my previous works:
+                    <ul>
+                        <li><a href="https://slu-cyberbillikens.vercel.app/" target="_blank">Devloped backend and Integrated with the front end for SLU Cyberbillikens</a></li>
+                        <li><a href="https://neosmiles.s3.us-east-2.amazonaws.com/index.html">Developed a Sttic Site for Neosmiles dental and hosted on AWS</a></li>
+                    </ul>
+                </p>
+            </div>
+        </div><br><br>
+        <h4>My hobbies:</h4>
+        <center>
+            <table style="border: 1px solid black; border-collapse: collapse;">
+                <tr>
+                    <th class="table-border">name</th>
+                    <th class="table-border">hobby</th>
+                    <th class="table-border">Last time I did the activity</th>
+                    <th class="table-border">Next time I am planning to do the activity</th>
+                </tr>
+                <tr>
+                    <td rowspan= 3 class="table-border">Rohit</td>
+                    <td class="table-border">Playing Basketball</td>
+                    <td class="table-border">1 week ago</td>
+                    <td class="table-border">This weekend</td>
+                </tr>
+                <tr>
+                    <td class="table-border">Watching Movies</td>
+                    <td class="table-border">Yesterday</td>
+                    <td class="table-border">Next weekend</td>
+                </tr>
+                <tr>
+                    <td class="table-border">Coding</td>
+                    <td class="table-border">Yesterday</td>
+                    <td class="table-border">Tommorow</td>
+                </tr>
+            </table>
+        </center><br><br>
+    </main>
+    <footer>
+        <center>
+            <p>&copy; 2024 Rohit Reddy Musukudabbidi | @rohitreddy.musukudabbidi@slu.edu</p>
+        </center>
+    </footer>    
+    </body>
 </html>
